@@ -1,0 +1,7 @@
+a = int(input("Enter a value = "))
+b = int(input("Enter a value = "))
+c = int(input("Enter a value = "))
+print("The equation is "+str(a)+"x^2"+"+"+str(b)+"x"+"+"+str(c))
+x=(-b+((b*b)-(4*a*c)))/(2*a)
+y=(-b-((b*b)-(4*a*c)))/(2*a)
+print("The roots of the equation are "+str(x)+" and "+str(y))
