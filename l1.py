@@ -1,8 +1,9 @@
-n = int(input("No. b/w 1 and = "))
+n = int(input("No. of terms needed = "))
 sum = 0
 count = 0
-for i in range (1,2*n+1,2):
+i=1
+while count<n:
     sum+=i
+    i+=2
     count+=1
-    if count == n:
-        print("The sum of first odd numbers is "+str(i))
+print("The sum of first "+str(n)+"odd numbers is "+str(sum))
